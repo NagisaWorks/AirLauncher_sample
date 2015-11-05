@@ -341,7 +341,7 @@ string|Destination URL
 ### type
 
 Value|Description
---|--
+---|---
 Not set| goes to url (`pushDocument`)
 modal|displays modal(`presentModal`)
 video|plays movie, pushes siblings to playlist
@@ -371,7 +371,7 @@ Putting on JSON file in server-root or JavaScript's directory of the name of the
 * for JavaScript `Your-JS-filename.json`
 
 Key|Description
---|--
+---|---
 name|Server name you want to display
 thumb|Server thumbnail at right side of the list (Full path)
 
