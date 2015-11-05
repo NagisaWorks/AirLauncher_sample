@@ -138,7 +138,7 @@ Air Launcherでは、選択されるXMLタグのアトリビュートを記述�
 遷移先のURLを指定します。
 
 Value|Description
---|--
+---|---
 string|遷移先のURL
 
 #### type
