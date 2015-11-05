@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <document>
+    <head>
+      <style>
+      .whiteText {
+        color: rgb(255, 255, 255);
+      }
+      </style>
+    </head>
+    <catalogTemplate>
+      <banner>
+        <title>Title</title>
+      </banner>
+      <list>
+        <section>
+          <header>
+            <title>Section Header</title>
+          </header>
+          <listItemLockup>
+            <title>Title 1</title>
+            <decorationLabel>6</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                  <lockup>
+                    <img src="{{.host}}/s1.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 1</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s2.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 2</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s3.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 3</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s4.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 4</title>
+                  </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Title 2</title>
+            <decorationLabel>8</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                  <lockup>
+                    <img src="{{.host}}/s1.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 1</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s2.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 2</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s3.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 3</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s4.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 4</title>
+                  </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Title 3</title>
+            <decorationLabel>12</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                  <lockup>
+                    <img src="{{.host}}/s1.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 1</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s2.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 2</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s3.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 3</title>
+                  </lockup>
+                  <lockup>
+                    <img src="{{.host}}/s4.jpg" width="308" height="308" />
+                    <title class="whiteText">Title 4</title>
+                  </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+        </section>
+      </list>
+    </catalogTemplate>
+  </document>

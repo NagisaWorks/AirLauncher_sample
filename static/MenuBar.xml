@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <menuBarTemplate>
+    <menuBar>
+      <menuItem template="{{.host}}/Catalog.xml" presentation="menuBarItemPresenter">
+        <title>Tab 1</title>
+      </menuItem>
+      <menuItem template="{{.host}}/Catalog.xml" presentation="menuBarItemPresenter">
+        <title>Tab 2</title>
+      </menuItem>
+    </menuBar>
+  </menuBarTemplate>
+</document>

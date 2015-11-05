@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+  <document>
+    <head>
+      <style>
+        .suggestionListLayout {
+          margin: -150 0;
+        }
+      </style>
+    </head>
+    <searchTemplate>
+      <searchField/>
+      <collectionList>
+        <list class="suggestionListLayout">
+          <section>
+            <header>
+              <title>Suggestions</title>
+            </header>
+            <listItemLockup _value="grid">
+              <title>"arc"</title>
+            </listItemLockup>
+            <listItemLockup>
+              <title>arcade</title>
+            </listItemLockup>
+          </section>
+        </list>
+        <separator></separator>
+        <shelf>
+          <header>
+            <title>Shelf Title</title>
+          </header>
+          <section>
+            <lockup>
+              <img src="{{.host}}/s1.jpg" width="350" height="520" />
+              <title>Title 1</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s2.jpg" width="350" height="520" />
+              <title>Title 2</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s3.jpg" width="350" height="520" />
+              <title>Title 3</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s4.jpg" width="350" height="520" />
+              <title>Title 4</title>
+            </lockup>
+          </section>
+        </shelf>
+        <grid>
+          <header>
+            <title>Grid Title</title>
+          </header>
+          <section>
+            <lockup>
+              <img src="{{.host}}/s1.jpg" width="350" height="520" />
+              <title>Title 1</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s2.jpg" width="350" height="520" />
+              <title>Title 2</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s3.jpg" width="350" height="520" />
+              <title>Title 3</title>
+            </lockup>
+            <lockup>
+              <img src="{{.host}}/s4.jpg" width="350" height="520" />
+              <title>Title 4</title>
+            </lockup>
+          </section>
+        </grid>
+      </collectionList>
+    </searchTemplate>
+  </document>
+  

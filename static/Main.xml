@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+  <mainTemplate>
+    <background>
+      <img src="{{.host}}/s1.jpg" />
+      <img src="{{.host}}/s2.jpg" />
+      <img src="{{.host}}/s3.jpg" />
+      <img src="{{.host}}/s4.jpg" />
+    </background>
+    <menuBar>
+      <section>
+        <menuItem>
+          <title>Tab 1</title>
+        </menuItem>
+        <menuItem>
+          <title>Tab 2</title>
+        </menuItem>
+        <menuItem>
+          <title>Tab 3</title>
+        </menuItem>
+      </section>
+    </menuBar>
+  </mainTemplate>
+</document>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <head>
+        <style>
+          .description{
+            color: rgb(66, 66, 66);
+            max-width: 1280;
+            tv-text-style: body;
+            text-align: center;
+          }
+        </style>
+    </head>
+    <compilationTemplate>
+      <banner>
+        <title style="color: rgb(122,122,122);">WWDC 2015 Videos</title>
+        <description class="description">TVMLLauncher provides easy way to connect your TVML or TVJS on the server.</description>
+      </banner>
+      <list>
+        <section>
+          <header>
+              <title></title>
+          </header>
+
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/1014o78qhj07pbfxt9g7/101/hls_vod_mvp.m3u8">
+              <title>WWDC 2015 Keynote</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="https://devimages.apple.com.edgekey.net/videos/images/videos-wwdc2015-banner_2x.png" />
+                      <title class="video-title">WWDC 2015 Keynote</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/hls_vod_mvp.m3u8">
+              <title>Platforms State of the Union</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="http://devstreaming.apple.com/videos/wwdc/2015/1026npwuy2crj2xyuq11/102/images/102_734x413.jpg" />
+                      <title class="video-title">Platforms State of the Union</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/hls_vod_mvp.m3u8">
+              <title>Introducing WatchKit for watchOS 2</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="http://devstreaming.apple.com/videos/wwdc/2015/105ncyldc6ofunvsgtan/105/images/105_734x413.jpg" />
+                      <title class="video-title">Introducing WatchKit for watchOS 2</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/106z3yjwpfymnauri96m/106/hls_vod_mvp.m3u8">
+              <title>What's New in Swift</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="http://devstreaming.apple.com/videos/wwdc/2015/106z3yjwpfymnauri96m/106/images/106_734x413.jpg" />
+                      <title class="video-title">What's New in Swift</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/104usewvb5m0qbwafx8p/104/hls_vod_mvp.m3u8">
+              <title>What's New in Xcode</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="http://devstreaming.apple.com/videos/wwdc/2015/104usewvb5m0qbwafx8p/104/images/104_734x413.jpg" />
+                      <title class="video-title">What's New in Xcode</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+          <listItemLockup type="video" url="http://devstreaming.apple.com/videos/wwdc/2015/802mpzd3nzovlygpbg/802/hls_vod_mvp.m3u8">
+              <title>Designing for Apple Watch</title>
+              <decorationImage src="resource://button-play" />
+              <relatedContent>
+                  <lockup>
+                      <img src="http://devstreaming.apple.com/videos/wwdc/2015/802mpzd3nzovlygpbg/802/images/802_734x413.jpg" />
+                      <title class="video-title">Designing for Apple Watch</title>
+                      <description></description>
+                  </lockup>
+              </relatedContent>
+          </listItemLockup>
+
+
+      </section>
+    </list>
+</compilationTemplate>
+</document>

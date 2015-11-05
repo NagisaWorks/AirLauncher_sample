@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <head>
+        <style>
+          .description{
+            color: rgb(66, 66, 66);
+            max-width: 1280;
+            tv-text-style: body;
+            text-align: center;
+          }
+        </style>
+    </head>
+    <compilationTemplate>
+      <banner>
+        <title style="color: rgb(122,122,122);">Static demos</title>
+        <description class="description"></description>
+      </banner>
+      <list>
+        <section>
+          <header>
+              <title></title>
+          </header>
+
+          <listItemLockup  url="{{.host}}/WWDC.xml">
+            <title>WWDC videos</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Catalog.xml">
+            <title>Catalog</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Compilation.xml">
+            <title>Compilation</title>
+          </listItemLockup>
+
+          <listItemLockup  type="modal" url="{{.host}}/DescriptiveAlert.xml">
+            <title>DescriptiveAlert</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Form.xml">
+            <title>Form</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/ListItemExamples.xml">
+            <title>ListItemExamples</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Loading.xml">
+            <title>Loading</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Main.xml">
+            <title>Main</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/MenuBar.xml">
+            <title>MenuBar</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Product.xml">
+            <title>Product</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Rating.xml">
+            <title>Rating</title>
+          </listItemLockup>
+
+          <listItemLockup  url="{{.host}}/Stack.xml">
+            <title>Stack</title>
+          </listItemLockup>
+
+      </section>
+    </list>
+</compilationTemplate>
+</document>

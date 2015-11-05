@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+    <listTemplate>
+        <list>
+            <section>
+
+                {{range .list}}
+                <listItemLockup type="{{.type}}" url="{{.url}}" >
+                <title class="video-title">{{.title}}</title>
+                <img src="{{.thumb}}" width="160" height="90"  />
+                <relatedContent>
+                    <lockup>
+                        <img src="{{.sthumb}}" />
+                        <title class="video-title">{{.title}}</title>
+                        <description>{{.desc}}</description>
+                    </lockup>
+                </relatedContent>
+            </listItemLockup>
+            {{end}}
+
+            </section>
+       </list>
+    </listTemplate>
+</document>
