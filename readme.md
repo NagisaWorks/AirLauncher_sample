@@ -335,7 +335,7 @@ Attributes are 'url' and 'type' combinations.
 Indicate a destination url.
 
 Value|Description
---|--
+---|---
 string|Destination URL
 
 ### type
